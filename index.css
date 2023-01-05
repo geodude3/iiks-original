@@ -1,0 +1,12 @@
+button {
+    background-color: yellow;
+    width: 100px;
+    height: 40px;
+}
+body{
+    background-color: aqua;
+}
+#presentText{
+    padding: 30px;
+    padding-left: 500px;
+}
