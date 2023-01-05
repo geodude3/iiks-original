@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', ()=>{
     
     const btn = document.querySelector("button");
