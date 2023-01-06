@@ -17,4 +17,16 @@ document.addEventListener('DOMContentLoaded', ()=>{
     });
 
 
+    setInterval(()=>{
+        console.log("1s")
+
+        document.querySelector('#divProg').style.visibility = 'hidden';
+        setTimeout(()=>{
+            document.querySelector('#divProg').style.visibility = 'visible';
+        },1000);
+        
+    
+    }, 2000);
+
+
 });

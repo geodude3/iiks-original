@@ -13,3 +13,12 @@ body{
     padding: 30px;
     padding-left: 500px;
 }
+#divProg{
+    background-color: coral;
+    padding: 100px;
+    visibility: hidden;
+}
+#inProg{
+    visibility: inherit;
+    padding-left: 300px;
+}
