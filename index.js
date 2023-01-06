@@ -8,11 +8,11 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
         if (colour == 'rgb(255, 0, 0)'){
             document.body.style.backgroundColor = "yellow";
-            document.querySelector("button").backgroundColor = "red";
+            btn.style.backgroundColor = "red";
         }
         else{
             document.body.style.backgroundColor = "red";
-            document.querySelector("button").backgroundColor = "yellow";
+            btn.style.backgroundColor = "yellow";
         }
     });
 
