@@ -1,9 +1,16 @@
 document.addEventListener('DOMContentLoaded', ()=>{
     
     const btn = document.querySelector("button");
-
+    
     btn.addEventListener('click',()=>{
-        document.body.style.backgroundColor = "red";
+        let colour = window.getComputedStyle( document.body ,null).getPropertyValue('background-color');
+        if (colour == 'rgb(255, 0, 0)'){
+            document.body.style.backgroundColor = "yellow";
+        }
+        else{
+            document.body.style.backgroundColor = "red";
+        }
     });
+
 
 });
