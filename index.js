@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         }
         else{
             document.body.style.backgroundColor = "red";
-            document.querySelector("button").backgroundColor = "red";
+            document.querySelector("button").backgroundColor = "yellow";
         }
     });
 
