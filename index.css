@@ -4,21 +4,28 @@ button {
     height: 40px;
 }
 .button{
-    padding-left: 500px;
+    padding: 20px;
+    text-align: center;
+
 }
 body{
     background-color: aqua;
 }
-#presentText{
+.presentText{
     padding: 30px;
-    padding-left: 500px;
+    text-align: center;
+}
+#names{
+    text-align: center;
 }
 #divProg{
+
     background-color: coral;
     padding: 100px;
     visibility: hidden;
 }
 #inProg{
+    text-align: center;
+
     visibility: inherit;
-    padding-left: 300px;
 }
