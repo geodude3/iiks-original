@@ -18,11 +18,10 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
 
     setInterval(()=>{
-        console.log("1s")
 
-        document.querySelector('#divProg').style.visibility = 'hidden';
+        document.querySelector('#divProg').style.visibility = 'visible';
         setTimeout(()=>{
-            document.querySelector('#divProg').style.visibility = 'visible';
+            document.querySelector('#divProg').style.visibility = 'hidden';
         },1000);
         
     
